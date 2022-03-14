@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img1.jpg);
+    }
+
+    .left {
+        display: inline-block;
+        border: 2px solid yellow;
+        position: absolute;
+        top: 20px;
+        left: 22px;
+    }
+
+    .mid {
+        border: 2px solid green;
+        display: block;
+        width: 35%;
+        margin: 9px auto;
+    }
+
+    .right {
+        display: inline-block;
+        border: 2px solid palevioletred;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    /* nav ul{
+    overflow: auto;
+}
+nav ul li{
+        float: left;
+}
+nav li a{
+    text-decoration: none;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+
+} */
+    .mid li {
+        display: inline-block;
+    }
+
+    li a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        margin: 0px 5px;
+        padding: 14px 14px;
+    }
+
+    li a:hover {
+        text-decoration: underline;
+        background-color: yellow;
+        color: black;
+    }
+    .left img {
+        filter: invert(100%);
+        width: 85px;
+    }
+    .logotext{
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .btn{
+        font-weight: bold;
+        cursor: pointer;
+        width: 95px;
+        height: 25px;
+        padding: 4px 14px;
+        margin: 5px 6px;
+        border-radius: 5px;
+    }
+    .btn:hover{
+        background-color: yellow;
+    }
+</style>
+
+<body>
+    <div class="headr">
+        <div class="left">
+                <img src="logo.png" alt="My Gym" srcset="" >
+            <div class="logotext">My GYM</div>
+        </div>
+        <div class="mid">
+            <ul type="none">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button href="#" class="btn">Call us</button>
+            <button href="#" class="btn">Mail Us</button>
+        </div>
+    </div>
+</body>
+
+</html>
